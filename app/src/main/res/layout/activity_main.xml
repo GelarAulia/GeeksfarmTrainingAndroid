@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.gelaraulia.geeksfarmtraining.MainActivity">
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button Frame"
+        android:id="@+id/btn_frame"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"/>
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button Linear Horizontal"
+        android:id="@+id/btn_linearHor"
+        android:layout_below="@+id/btn_frame"/>
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button Linear Vertical"
+        android:id="@+id/btn_linearVer"
+        android:layout_below="@+id/btn_linearHor"/>
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button Table"
+        android:id="@+id/btn_table"
+        android:layout_below="@+id/btn_linearVer"/>
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button Grid"
+        android:id="@+id/btn_grid"
+        android:layout_below="@+id/btn_table"/>
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button Relative"
+        android:id="@+id/btn_relative"
+        android:layout_below="@+id/btn_grid"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:background="#000000"/>
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button Nested + Form Components"
+        android:id="@+id/btn_nested"
+        android:layout_below="@+id/btn_relative"/>
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="List View"
+        android:id="@+id/btn_toListView"
+        android:layout_below="@+id/btn_nested"/>
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Image View"
+        android:id="@+id/btn_toImageView"
+        android:layout_below="@+id/btn_toListView"/>
+</RelativeLayout>

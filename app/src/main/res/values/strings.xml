@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">GeeksfarmTraining</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_framelay">FrameLayActivity</string>
+    <string name="title_activity_linearlayhor">LinearLayHorActivity</string>
+    <string name="title_activity_linearlayver">LinearLayVerActivity</string>
+    <string name="title_activity_tablelay">TableLayActivity</string>
+    <string name="title_activity_gridlay">GridLayActivity</string>
+    <string name="title_activity_relativelay">RelativeLayActivity</string>
+</resources>
